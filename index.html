@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="top panel back">
+                <input class="add" type="text" id="task" placeholder="Task to be done...">
+                <button class="button-1" role="button" onClick="inputTask()" >Add</button>
+            </div>
+            <div class="down back">
+                <ul id="tasks" class="ul">
+                    <!-- <li class="li">
+                        <p class="h5">Prepare the monthly report</p>
+                        <img class="del" src="/del.png" onClick="del(this)" alt="delete">
+
+                    </li> -->
+                    <p id="emptymsg" class="h5 no">THERE ARE NO TASK FOR TODAY</p>
+                    
+                </ul>
+            </div>
+        </div>
+    </header>
+    <footer class="top">
+        <h2 >MADE BY WALEED NASIR</h2>
+        <h3> ALL RIGHTS RESERVED COPYWRITE &copy; 2022</h3>
+    </footer>
+    <script src="/app.js"></script>
+</body>
+</html>
